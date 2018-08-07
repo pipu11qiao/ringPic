@@ -1,0 +1,33 @@
+{
+  "name": "ringpic",
+  "version": "1.0.0",
+  "description": "环拍图",
+  "main": "dist/ringPic.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sequence": "^1.0.0",
+    "gulp-uglify": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipu11qiao/ringPic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pipu11qiao/ringPic/issues"
+  },
+  "homepage": "https://github.com/pipu11qiao/ringPic#readme"
+}
