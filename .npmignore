@@ -1,7 +1,5 @@
 .idea
 .DS_Store
-doc
-src
 node_modules
 npm-debug.log
 *.log

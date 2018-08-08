@@ -13,14 +13,14 @@ var rename = require('gulp-rename'); // 重命名
 
 // 本地热加载
 gulp.task('reload', function () {
-  gulp.src('dev/ringPic.html')
+  gulp.src('dev/demo.html')
     .pipe(connect.reload());
 });
 // 本地监视文件
 gulp.task('watch', function () {
   gulp.watch([
-    'dev/js/ringPic.js',
-    'dev/ringPic.html'
+    'src/ringPic.js',
+    'demo/demo.html'
   ], ['reload']);
 });
 
@@ -47,7 +47,7 @@ gulp.task('clean', function (cb) {
 // 合并压缩js并生成hash文件 开发环境不压缩
 gulp.task('buildJs', function () {
   return gulp
-    .src('dev/js/ringPic.js')
+    .src('src/ringPic.js')
     .pipe(gulp.dest('dist'))      //- 输出文件本地
     .pipe(uglify())
     .pipe(rename({extname: '.min.js'}))

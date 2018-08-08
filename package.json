@@ -1,5 +1,5 @@
 {
-  "name": "ringpic",
+  "name": "pipu-ringpic",
   "version": "1.0.0",
   "description": "环拍图",
   "main": "dist/ringPic.js",
